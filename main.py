@@ -3,7 +3,7 @@ from threading import Thread # Importamos la clase Thread
 from codigo import buffer, tamano_buff, buff, productor, consumidor # Importamos las variables y funciones del archivo codigo.py
 
 def main(): # Funcion principal
-    total_productores = 2 # Variable que contiene el numero de productores
+    total_productores = 4 # Variable que contiene el numero de productores
     total_consumidores = 2 # Variable que contiene el numero de consumidores
     productores = [] # Creamos un arreglo de productores
     consumidores = [] # Creamos un arreglo de consumidores
