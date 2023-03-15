@@ -25,3 +25,20 @@ def productor(id):
     print("")
     return
 
+def consumidor(id):
+    milisegs = 0
+    id_t = id
+    while buffer.empty() == False:
+        buffer.get()
+        milisegs += 1
+        buff[buffer.qsize()] += 1
+        time.sleep(0.001)
+        print("Consumidor ", id_t, " consumio")
+        print("Buffer: ", buffer.qsize())
+        print("Milisegundos: ", milisegs)
+        print("")
+    print("Consumidor", id_t, "termino")
+    print("Buffer: ", buffer.qsize())
+    print("Milisegundos: ", milisegs)
+    print("")
+    return
