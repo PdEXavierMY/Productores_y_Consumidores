@@ -88,7 +88,7 @@ if __name__ == '__main__':
     main()
 ```
 
-Este código ha sido adaptado en base al ejemplo proporcionado en la entrega. Para comenzar, he designado el número de productores y consumidores de esta práctica como 4 y 2 respectivamente. Después se ha creado una lista que contenga esos productores y consumidores y se ha iniciado un hilo por cada elemento de esas listas, de forma que trabajamos en paralelo con cada productor y consumidor. Finalmente hemos llamado a los hilos a ejecutar las funciones que simulan los dos comportamientos distintos y hemos ido agrupando estos en un buffer. Lo último que hemos hecho es medir el tiempo del algoritmo con un time.time() al principio y al final.
+Este código ha sido adaptado en base al ejemplo proporcionado en la entrega. Para comenzar, he designado el número de productores y consumidores de esta práctica como 4 y 2 respectivamente. Después se ha creado una lista que contenga esos productores y consumidores y se ha iniciado un hilo por cada elemento de esas listas, de forma que trabajamos en paralelo con cada productor y consumidor. Finalmente hemos llamado a los hilos a ejecutar las funciones que simulan los dos comportamientos distintos y he ido agrupando estos en un buffer. Lo último que hemos hecho es medir el tiempo del algoritmo con un time.time() al principio y al final.
 
 El output resultante es el siguiente:
 
