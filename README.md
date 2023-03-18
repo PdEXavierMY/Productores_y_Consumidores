@@ -92,38 +92,20 @@ Este código ha sido adaptado en base al ejemplo proporcionado en la entrega. Pa
 
 El output resultante es el siguiente:
 
-
-
-Ahora vamos a ver la salida por terminal del main:
-
 ![output1](https://user-images.githubusercontent.com/91721699/226130748-5d264753-a2b8-4d85-afb4-9f12f4aab1a2.png)
-
 ![output2](https://user-images.githubusercontent.com/91721699/226130783-37333ce1-0542-4cdf-8c16-bb4f17441619.png)
-
 ![output3](https://user-images.githubusercontent.com/91721699/226130791-c22f7ddc-6af5-41ca-8984-58d8f2aed291.png)
-
 ![output4](https://user-images.githubusercontent.com/91721699/226130835-fbba5b5c-1278-4fa3-bb41-f2d61e90e6e4.png)
-
 ![output5](https://user-images.githubusercontent.com/91721699/226130839-9fa2f769-d857-4cd8-9565-12252d80d2ce.png)
-
 ![output6](https://user-images.githubusercontent.com/91721699/226130938-7d0e91be-dab5-47a0-b91d-58c9030d576d.png)
-
 ![output7](https://user-images.githubusercontent.com/91721699/226130841-ba510afb-6e09-485a-a0ae-34b8e36b19b6.png)
-
 ![output8](https://user-images.githubusercontent.com/91721699/226130843-5abe8c29-0a0b-43a5-a806-42dbdd5670c1.png)
-
 ![output9](https://user-images.githubusercontent.com/91721699/226130845-aa6364ba-dc85-464e-aa84-d7067208831e.png)
-
 ![output10](https://user-images.githubusercontent.com/91721699/226130847-4181e4e4-9fc4-4d5e-90a0-83e0570b936a.png)
-
 ![output11](https://user-images.githubusercontent.com/91721699/226130849-85ab805e-3795-45d8-a13c-d84a77dde838.png)
-
 ![output12](https://user-images.githubusercontent.com/91721699/226130949-cd412002-7a10-4a52-a325-e7b07cf88eb3.png)
-
 ![output13](https://user-images.githubusercontent.com/91721699/226130852-93e5ba4c-2ee5-455f-8312-c079f582cb81.png)
-
 ![output14](https://user-images.githubusercontent.com/91721699/226130853-be6f8bbf-61c3-4df3-992f-264a18dcbe5d.png)
-
 ![output15](https://user-images.githubusercontent.com/91721699/226130855-97c40baf-8b75-43f9-8f5c-56cb790922fe.png)
 
-Como conclusión, la programación paralela es indispensable para este problema, ya que evita, o mejor dicho, ayuda a gestionar los recursos compartidos que van solicitando o produciendo los consumidores y productores.
+Como conclusión, la programación paralela es indispensable para este problema, ya que evita, o mejor dicho, ayuda a gestionar los recursos compartidos que van solicitando o produciendo los consumidores y productores en el menor tiempo posible.
